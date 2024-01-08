@@ -32,6 +32,7 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 norm_matrix="{:.2f}".format(ans)
 print(norm_matrix)
+
 # Infinity Norm of a Matrix
 import numpy as np
 array=([[-1,3],[3,-4],[1,7]])
